@@ -1,0 +1,105 @@
+.login {
+  background: #f40009;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.login-platform-logo {
+  width: 70%;
+  height: 100vh;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.login-section {
+  width: 30%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mes {
+  display: flex;
+  align-items: center;
+  color: var(--unnamed-color-f40009);
+  text-align: left;
+  font: normal normal normal 38px/47px Montserrat;
+  letter-spacing: 0px;
+  color: #f40009;
+  margin-top: 32%;
+  margin-bottom: 28%;
+}
+
+.login-boxs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 23%;
+}
+
+.email-box {
+  position: relative;
+}
+
+.login-boxs input {
+  /* width: 14vw;
+  height: 4vh;
+  padding-left: 4vw; */
+  width: 200px;
+  height: 30px;
+  padding-left: 40px;
+
+  margin-bottom: 8%;
+  border: 1px solid #b2bec3;
+  border-radius: 35px;
+  outline: none;
+
+  text-align: left;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0.8px;
+  color: #000000;
+
+  position: relative;
+  /* z-index: 1000; */
+}
+
+.login-boxs input:focus {
+  z-index: 1000;
+  padding-left: 17px;
+  border: 1px solid #f40009;
+}
+
+.icon {
+  position: absolute;
+  top: 10px;
+  /* left: 1.5vw; */
+  left: 17px;
+  /* z-index: 100; */
+}
+
+.login-boxs button {
+  background: #f40009;
+  border: none;
+  outline: none;
+  text-align: center;
+  font: normal normal bold 18px/22px Montserrat;
+  letter-spacing: 0.9px;
+  color: #ffffff;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 2vh;
+  border-radius: 35px;
+}

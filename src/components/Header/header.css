@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 5vh; */
+  padding: 3px 10px 5px 10px;
+  box-shadow: 0px 3px 6px #272d3b33;
+}
+
+.group-left {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-left: 5vw;
+}
+
+.factory-selection {
+  background: #08415c;
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  padding: 5px 5px;
+  border-radius: 8px;
+}
+
+.factory-selection select,
+.factory-selection select option {
+  background: #08415c;
+  border: none;
+  outline: none;
+
+  text-align: left;
+  font: normal normal 600 10px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.line {
+  cursor: pointer;
+  background: #08415c;
+  padding: 3px 5px;
+  border-radius: 8px;
+}
+
+.group-right {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  margin-right: 5vw;
+}
+
+.select-day {
+  display: flex;
+  gap: 1vw;
+}
+.select-day div {
+  padding: 1vh 1vw;
+  text-align: left;
+  font: normal normal 14px Montserrat;
+  letter-spacing: 0px;
+  color: #b2bec3;
+  border-radius: 1vh;
+  cursor: pointer;
+}
+
+.active {
+  background: #08415c;
+}
+
+.date-icon {
+  cursor: pointer;
+}

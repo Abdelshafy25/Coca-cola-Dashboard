@@ -1,0 +1,96 @@
+.sidebar {
+  background: #f40009;
+  height: 100;
+  /* width: 20vw; */
+  display: flex;
+  flex-direction: column;
+
+  font-family: Montserrat;
+}
+
+.sidebar .mes-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 100%;
+
+  margin-top: 8vh;
+  margin-bottom: 12vh;
+  text-align: left;
+  font: normal normal normal 26px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.sidebar .mes-logo svg {
+  margin-left: 3vw;
+  margin-right: 1vw;
+}
+
+.middel-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 17vh;
+  gap: 3.5vh;
+  flex-wrap: wrap;
+}
+
+.flexBox {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding-left: 2vw;
+  gap: 1vw;
+
+  text-align: left;
+  font: normal normal 14px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+
+  transition: all 0.15s;
+}
+
+.flexBox .icon-list {
+  display: flex;
+  justify-content: flex-start;
+  width: 2vw;
+}
+
+.flexBox .title {
+  display: flex;
+  justify-content: flex-start;
+
+  width: 8vw;
+}
+
+.config {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8vh;
+  gap: 3vh;
+}
+
+.coca-cola-logo {
+  margin: auto;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+.dashboard {
+  background-color: #00000029;
+  border-top-right-radius: 5vh;
+  border-bottom-right-radius: 5vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+}
+
+.sidebar .flexBox:hover {
+  background-color: #00000029;
+  border-top-right-radius: 5vh;
+  border-bottom-right-radius: 5vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+}

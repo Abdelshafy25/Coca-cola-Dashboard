@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto&display=swap");
+
+/* .App {
+  transition: all 6s;
+} */
+
+.loged {
+  display: grid;
+  grid-template-columns: 13vw 1fr;
+  overflow: hidden;
+}

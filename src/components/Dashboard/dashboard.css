@@ -1,0 +1,11 @@
+.dashboardDetails {
+  background: #f4f7fe 0% 0% no-repeat padding-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+  padding-left: 3vw;
+  padding-right: 2vw;
+}
+
+/* ///////////////////////////////////////////// */
